@@ -1,0 +1,670 @@
+ERROR - 2022-11-18 20:40:30 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 20:40:30 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 20:43:24 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 20:43:24 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 20:43:38 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 20:43:38 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 20:44:04 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 20:44:04 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 20:50:09 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 20:50:09 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:
+WHERE `id` = :id.1:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(154): CodeIgniter\Database\BaseBuilder->update([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 21:18:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `u...' at line 1 in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(212): CodeIgniter\Database\BaseBuilder->update('2', Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 21:18:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `u...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `user_image` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `user_image` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `user_image` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` IS NULL
+AND `nim` IS NULL
+AND `fullname` IS NULL
+AND `user_image` IS NULL', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(212): CodeIgniter\Database\BaseBuilder->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:27:52 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 21:28:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:...' at line 1 in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(250): CodeIgniter\Database\BaseBuilder->update('2', Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 21:28:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(250): CodeIgniter\Database\BaseBuilder->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:28:17 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:32:17 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:32:22 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 21:32:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:...' at line 1 in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(250): CodeIgniter\Database\BaseBuilder->update('2', Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 21:32:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET 2 = :2:
+WHERE `email` = :email:
+AND `nim` = :nim:
+AND `fullname` = :fullname:
+AND `user_image` = :user_image:', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(250): CodeIgniter\Database\BaseBuilder->update('2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:32:41 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 21:56:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ci4_api', 3306, '', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(21): CodeIgniter\Database\BaseBuilder->countAll()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->index()
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(21): CodeIgniter\Database\BaseBuilder->countAll()
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->index()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#9 {main}
+CRITICAL - 2022-11-18 21:56:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1614): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `mahasiswa`', null, false)
+ 3 APPPATH\Controllers\Mahasiswa.php(21): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:57:50 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:57:54 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 21:58:49 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 242.
+ 1 APPPATH\Controllers\Mahasiswa.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 242, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 22:06:18 --> Undefined index: email
+in APPPATH\Controllers\Mahasiswa.php on line 241.
+ 1 APPPATH\Controllers\Mahasiswa.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\Mahasiswa.php', 241, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:14:16 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:14:16 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:14:26 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:14:26 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:14:55 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:14:55 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:14:58 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:14:58 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(193): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:15:41 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(195): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:15:41 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(195): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:16:17 --> mysqli_sql_exception: Column 'nim' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `m...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `m...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `m...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `m...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(195): CodeIgniter\Database\BaseBuilder->replace(Array)
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:16:17 --> Column 'nim' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'maman@gmail.com\', NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'maman@gmail.com\', NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'maman@gmail.com\', NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2002): CodeIgniter\Database\BaseConnection->query('REPLACE INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(195): CodeIgniter\Database\BaseBuilder->replace([...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:26:21 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(209): CodeIgniter\Model->update(NULL, Array)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2022-11-18 22:26:21 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Mahasiswa.php(209): CodeIgniter\Model->update(null, [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:30:20 --> mysqli_sql_exception: Duplicate entry '' for key 'email' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasis...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasis...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasis...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasis...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(693): CodeIgniter\BaseModel->update(NULL, Array)
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(209): CodeIgniter\Model->update(NULL, Array)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#13 {main}
+CRITICAL - 2022-11-18 22:30:20 --> Duplicate entry '' for key 'email'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `mahasiswa` SET `email` = NULL, `nim` = NULL, `fullname` = NULL, `user_image` = NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `mahasiswa` SET `email` = :email:, `nim` = :nim:, `fullname` = :fullname:, `user_image` = :user_image:', [...], false)
+ 5 SYSTEMPATH\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(886): CodeIgniter\Model->doUpdate(null, [...])
+ 7 SYSTEMPATH\Model.php(693): CodeIgniter\BaseModel->update(null, [...])
+ 8 APPPATH\Controllers\Mahasiswa.php(209): CodeIgniter\Model->update(null, [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:39:02 --> mysqli_sql_exception: Column 'email' cannot be null in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(210): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#10 {main}
+CRITICAL - 2022-11-18 22:39:02 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(210): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->modified('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-18 22:41:52 --> mysqli_sql_exception: Duplicate entry '1002' for key 'nim' in G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\codeigniter4\codeigniter4-framework-6ffad15\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\codeigniter4\codeigniter4-framework-6ffad15\system\BaseModel.php(659): CodeIgniter\Model->insert(Array, false)
+#8 G:\codeigniter4\codeigniter4-framework-6ffad15\app\Controllers\Mahasiswa.php(103): CodeIgniter\BaseModel->save(Array)
+#9 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(927): App\Controllers\Mahasiswa->create()
+#10 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#11 G:\codeigniter4\codeigniter4-framework-6ffad15\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\codeigniter4\codeigniter4-framework-6ffad15\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 G:\codeigniter4\codeigniter4-framework-6ffad15\system\Commands\Server\rewrite.php(46): require_once('G:\\codeigniter4...')
+#14 {main}
+CRITICAL - 2022-11-18 22:41:52 --> Duplicate entry '1002' for key 'nim'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'jajang123@gmail.co\', \'1002\', \'asepmaman\\n\', \'JAJANG.JPS\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'jajang123@gmail.co\', \'1002\', \'asepmaman\\n\', \'JAJANG.JPS\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (\'jajang123@gmail.co\', \'1002\', \'asepmaman\\n\', \'JAJANG.JPS\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`email`, `nim`, `fullname`, `user_image`) VALUES (:email:, :nim:, :fullname:, :user_image:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(659): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Mahasiswa.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Mahasiswa->create()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
